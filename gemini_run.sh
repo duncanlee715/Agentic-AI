@@ -1,7 +1,7 @@
 #!/bin/bash
 nohup python -u gemini_run.py \
     --test_file data/laptop.jsonl \
-    --api_key YOUR_GEMINI_API_KEY \
+    --api_key YOUR_API_KEY \
     --headless \
     --max_iter 15 \
     --max_attached_imgs 3 \
